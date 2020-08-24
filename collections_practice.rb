@@ -23,7 +23,8 @@ def reverse_array(nums)
 end
 
 def kesha_maker(strings)
-  strings
+  strings.each do |string|
+    
 end
 
 
