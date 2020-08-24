@@ -19,7 +19,7 @@ def swap_elements_from_to(strings, index, new_index)
 end
 
 def reverse_array(nums)
-  nums.sort {|a, b| b <=> a}
+  nums.reverse
 end
 
 
