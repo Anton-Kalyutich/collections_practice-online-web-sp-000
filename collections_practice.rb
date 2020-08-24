@@ -3,4 +3,5 @@ def sort_array_asc(nums)
 end
 
 def sort_array_desc
+  nums.sort {|a, b| b <=> a}
 end
