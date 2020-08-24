@@ -24,7 +24,6 @@ end
 
 def kesha_maker(strings)
   strings.map do |string|
-    
     string.split[2] = "$"
   end
   
