@@ -41,7 +41,7 @@ def sum_array(nums)
 end
 
 def add_s(words)
-  words.map {|word| 
+  words.map {|word| word + "s"
 end
 
 
