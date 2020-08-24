@@ -15,7 +15,7 @@ def swap_elements(strings)
 end
 
 def swap_elements_from_to(strings, index, new_index)
-  strings.insert(1, strings.pop())
+  strings.insert(new_index, strings.pop())
 end
 
 
