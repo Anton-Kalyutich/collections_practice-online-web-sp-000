@@ -27,7 +27,7 @@ def kesha_maker(strings)
   strings.each do |string|
     string.split[2] = "$"
   end
-  
+  new_strings
 end
 
 
