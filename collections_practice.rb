@@ -1,3 +1,3 @@
-def sort_array_asc(integers)
+def sort_array_asc(nums)
   
 end
