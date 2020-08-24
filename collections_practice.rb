@@ -26,7 +26,7 @@ def kesha_maker(strings)
   new_strings = []
   strings.each do |string|
     string_array = string.split("")
-    string_array[2] = "$"
+    string_array[2] = '$'
     new_strings << new_string.join
   end
   new_strings
