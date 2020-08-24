@@ -42,9 +42,7 @@ end
 
 def add_s(words)
   words.each_with_index.map do |word, index|
-    if index == 1
-      continue
-    end
+    word if
     word + "s"
   end
 end
