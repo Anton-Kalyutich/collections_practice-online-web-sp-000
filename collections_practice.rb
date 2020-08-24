@@ -40,6 +40,6 @@ def sum_array(nums)
   nums.inject(:+)
 end
 
-def add_s
+def add_s(words)
 
 
